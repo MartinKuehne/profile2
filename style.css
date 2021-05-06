@@ -4,7 +4,7 @@ html {
 
 body {
   font-family: 'Karla';
-  font-weight: 300;
+  font-weight: 200;
   background-color: #181818;
   color: #f0f0f0;
   padding: 0;
@@ -86,17 +86,21 @@ hr {
   scrollbar-width: none;  /* Firefox */
 }
 
-#section3 {
+#section4 {
   background-color: #dbc9bf;
 }
 
-#section3 h2 {
+#section4 h2 {
   color: #181818;
   font-weight: 400;
 }
 
-#section3 .fab{
+#section4 .fab{
   color: #f0f0f0;
+}
+
+#section3 .container{
+  height: 200vh;
 }
 
 .card {
@@ -129,7 +133,7 @@ hr {
   padding: 0px 20px;
 }
 
-a#down {
+#down {
   position: absolute;
   left: 50%;
   right: 50%;
@@ -405,3 +409,34 @@ a#homepage:hover {
   font-display: swap;
 }
 
+input[type=text], select, textarea {
+  width: 100%; /* Full width */
+  padding: 12px; /* Some padding */ 
+  border: 1px solid #ccc; /* Gray border */
+  border-radius: 4px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 6px; /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
+  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+  background-color: #1616166e;
+  color: rgb(243, 243, 243);
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+/* Add a background color and some padding around the form */
+.container-form {
+  border-radius: 5px;
+  padding: 20px;
+}
